@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <!-- css file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="heading">Scientific Calculator</h1>
+
+    <!-- Calculator starts -->
+    <div class="calculator">
+        <div>
+            <input class="input" type="text">
+        </div>
+
+        <div class="output">
+            <output class="ans"></output>
+        </div>
+
+        <div>
+            <button class="btn deg">DEG</button>
+            <button class="btn f-e">F-E</button>
+        </div>
+
+        <div class="row-use-full">
+            <button class="btn inactive">MC</button>
+            <button class="btn inactive">MR</button>
+            <button class="btn">M+</button>
+            <button class="btn">M-</button>
+            <button class="btn">MS</button>
+        </div>
+
+        <div class="function">
+            <button class="btn Trigonometry"><img src="trigon.png" alt="trigon symbol" class="icon"> Trigonometry</button>
+            <button class="btn Function"><img src="func.png" alt="function symbol" class="icon">Function</button>
+        </div>
+
+        <!-- table starts here -->
+        <div class="table">
+            <table class="calc-table">
+                <tr class="tab-row">
+                    <td class="tab-data">
+                        <button class="tab-btn">2 <sup>nd</sup></button>
+                    </td>
+                    <td class="tab-data">
+                        <button class="tab-btn">&pi;</button>
+                    </td>
+                    <td class="tab-data">
+                        <button class="tab-btn">e</button>
+                    </td>
+                    <td class="tab-data">
+                        <button class="tab-btn">C</button>
+                    </td>
+                    <td class="tab-data">
+                        <button class="tab-btn"><img src="erase-i.png" alt="erase symbol" class="erase-icon"></button>
+                    </td>
+                </tr>
+                <tr class="tab-row">
+                    <td class="tab-data">
+                        <button class="tab-btn">x <sup>2</sup></button>
+                    </td>
+                    <td class="tab-data">
+                        <button class="tab-btn">1/X</button>
+                    </td>
+                    <td class="tab-data">
+                        <button class="tab-btn">|x|</button>
+                    </td>
+                    <td class="tab-data">
+                        <button class="tab-btn">exp</button>
+                    </td>
+                    <td class="tab-data">
+                        <button class="tab-btn">mod</button>
+                    </td>
+                </tr>
+                <tr class="tab-row">
+                    <td class="tab-data">
+                        <button class="tab-btn">2 &#x221A;x</button>
+                    </td>
+                    <td class="tab-data">
+                        <button class="tab-btn">(</button>
+                    </td>
+                    <td class="tab-data">
+                        <button class="tab-btn">)</button>
+                    </td>
+                    <td class="tab-data">
+                        <button class="tab-btn">n!</button>
+                    </td>
+                    <td class="tab-data">
+                        <button class="tab-btn">&#xf7;</button>
+                    </td>
+                </tr>
+                <tr class="tab-row">
+                    <td class="tab-data">
+                        <button class="tab-btn">x <sup>y</sup></button>
+                    </td>
+                    <td class="tab-data">
+                        <button class="tab-btn num-btn">7</button>
+                    </td>
+                    <td class="tab-data">
+                        <button class="tab-btn num-btn">9</button>
+                    </td>
+                    <td class="tab-data">
+                        <button class="tab-btn num-btn">9</button>
+                    </td>
+                    <td class="tab-data">
+                        <button class="tab-btn">&#xd7;</button>
+                    </td>
+                </tr>
+                <tr class="tab-row">
+                    <td class="tab-data">
+                        <button class="tab-btn">10 <sup>x</sup></button>
+                    </td>
+                    <td class="tab-data">
+                        <button class="tab-btn num-btn">4</button>
+                    </td>
+                    <td class="tab-data">
+                        <button class="tab-btn num-btn">5</button>
+                    </td>
+                    <td class="tab-data">
+                        <button class="tab-btn num-btn">6</button>
+                    </td>
+                    <td class="tab-data">
+                        <button class="tab-btn">-</button>
+                    </td>
+                </tr>
+                <tr class="tab-row">
+                    <td class="tab-data">
+                        <button class="tab-btn">log</button>
+                    </td>
+                    <td class="tab-data">
+                        <button class="tab-btn num-btn">1</button>
+                    </td>
+                    <td class="tab-data">
+                        <button class="tab-btn num-btn">2</button>
+                    </td>
+                    <td class="tab-data">
+                        <button class="tab-btn num-btn">3</button>
+                    </td>
+                    <td class="tab-data">
+                        <button class="tab-btn">&#8722;</button>
+                    </td>
+                </tr>
+                <tr class="tab-row">
+                    <td class="tab-data">
+                        <button class="tab-btn">ln</button>
+                    </td>
+                    <td class="tab-data">
+                        <button class="tab-btn num-btn">+/-</button>
+                    </td>
+                    <td class="tab-data">
+                        <button class="tab-btn num-btn">0</button>
+                    </td>
+                    <td class="tab-data">
+                        <button class="tab-btn num-btn">.</button>
+                    </td>
+                    <td class="tab-data">
+                        <button class="tab-btn">=</button>
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+    
+    <!--footer section-->
+	<div class="footer">
+		Copyright © 2022 by siddharth
+	</div>
+
+    <!-- Java-script file -->
+    <script src="index.js"></script>
+</body>
+</html>
