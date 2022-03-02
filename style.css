@@ -9,10 +9,13 @@
 /* 9BE3DE, BEEBE9, FFE3ED, FFFDF9 */
 
 body{
-    /* background-image: url(cal.webp);
+    background-image: linear-gradient(rgba(138, 198, 209, .5), rgba(138, 198, 209, .5)),url(cal.webp);
     background-repeat: no-repeat;
-    background-size: cover; */
+    background-size: cover;
     background-color: #8AC6D1;
+}
+body:after{
+    opacity: .2;
 }
 
 .heading{
@@ -23,10 +26,12 @@ body{
 }
 
 .calculator{
-    max-width: 522px;
-    max-height: 800px;
+    max-width: 530px;
+    max-height: 805px;
     margin: auto;
+    border: 5px solid #353432;
     background-color: #9BE3DE;
+    border-radius: 10px;
 }
 
 .input{
@@ -38,6 +43,11 @@ body{
     background-color: #9BE3DE;
     margin-bottom: 3px;
     border: none;
+}
+
+input:hover{
+    border: none;
+
 }
 
 .output{
@@ -80,7 +90,7 @@ body{
     width: 100%;
 }
 
-.tab-btn{
+.tab-data .tab-btn{
     min-width: 100px;
     background-color: #beedeb;
     border: none;
@@ -88,14 +98,22 @@ body{
     margin: 6px 0px;
 }
 
-.num-btn{
+.tab-data .num-btn{
     background-color: #e6f7f7;
 }
 
+.tab-data #onclick-btn{
+    background-color: #868278;
+}
+
+.row-use-full+.onclick-btn{
+    background-color: #868278;
+}
 
 /* fotter section */
 .footer{
-    background-color: rgb(105, 51, 206);
+    background-color: #8AC6D1;
+    border-top: 2px solid black;
     padding: 20px;
     margin-top: 70px;
     margin-bottom: 0px;
